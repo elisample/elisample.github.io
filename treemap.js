@@ -1,0 +1,2955 @@
+var objarr =
+    [
+        {
+            "Age": 18,
+            "Fav genre": "Latin"
+        },
+        {
+            "Age": 63,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 61,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": null,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 37,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 42,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 41,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 37,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 43,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 41,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 53,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 41,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 49,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 42,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 60,
+            "Fav genre": "Gospel"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 38,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 44,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 42,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 37,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 40,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 64,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 53,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 38,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 40,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 56,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 49,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 38,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 59,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 40,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 43,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 10,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 64,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 12,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 54,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 44,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 57,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 57,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 12,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 69,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 38,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 72,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 73,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 12,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 39,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 38,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 61,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 49,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 38,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 40,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 54,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 41,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 63,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 58,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 58,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 67,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 70,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 60,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 58,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 49,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 55,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 48,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 71,
+            "Fav genre": "Gospel"
+        },
+        {
+            "Age": 60,
+            "Fav genre": "Gospel"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 74,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 60,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 60,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 43,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 51,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 63,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 64,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 56,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 60,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 65,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 42,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 80,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 56,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 67,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 57,
+            "Fav genre": "Gospel"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 50,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 67,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 68,
+            "Fav genre": "Gospel"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 53,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 59,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 40,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 56,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Gospel"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Lofi"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Latin"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 46,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 56,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 25,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 33,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 48,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 49,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 42,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 31,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 42,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 34,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 37,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 43,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 28,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 32,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 15,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 24,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 27,
+            "Fav genre": "Jazz"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 36,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "K pop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Latin"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 89,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 20,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 30,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 37,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 44,
+            "Fav genre": "Folk"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 35,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 23,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 22,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Hip hop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 16,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 13,
+            "Fav genre": "Video game music"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "EDM"
+        },
+        {
+            "Age": 26,
+            "Fav genre": "Metal"
+        },
+        {
+            "Age": 14,
+            "Fav genre": "Country"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 21,
+            "Fav genre": "R&B"
+        },
+        {
+            "Age": 17,
+            "Fav genre": "Rock"
+        },
+        {
+            "Age": 18,
+            "Fav genre": "Pop"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Rap"
+        },
+        {
+            "Age": 19,
+            "Fav genre": "Classical"
+        },
+        {
+            "Age": 29,
+            "Fav genre": "Hip hop"
+        }
+    ]
+
+var arrArr = [['age', 'parent', 'count'],['age', null, 0]]
+
+var n = objarr.length
+
+for (i = 0; i < n; i++){
+    arrArr[i+2]=[objArr[i].Age, 'age', objarr[i].count]
+}
