@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation</title>
+</head>
+<body>
+<h1>Designing</h1>
+This started with searching for a suitable data set to use for the project. I am a fan of music and am curious about how data regarding mental health is recorded, so I went looking around for a dataset that fit that on the provided site, Kaggle. The dataset I chose can be found with the following link: https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
+<br>
+I initially loaded the dataset into Tableau to find possible visualizations that I would want to recreate using D3 methods.
+<br>
+I had a few starting questions: Does age have a correlation with favorite genre? Does the given answer or depression, anxiety, or OCD have a correlation with the given favorite genres? Does the given answer of depression, anxiety, or OCD have a correlation with the given amount of minutes listened to music?<br>
+The initial bar graphs were all usable, but due to not having a lot of information about how the values of depression, anxiety, and OCD were taken and a general lack of knowledge about the subject, I felt that it would be safer to focus on the question regarding age since this visualization will be posted with some amount of public availability.<br>
+I started with simple counts of age and favorite genres, giving me a sense of what people’s favorite genres happened to be. This led me to the type of visualization that I wanted to do after refining, a visualization called a Treemap. This also led me to wanting the favorite genre to be the main grouping of trees. After a bit of tweaking, I was able to break the favorite genre bars down again into bins based on age. When taking this into account, we get the count of people grouped together by their age, which happen to be based on multiples of 5, further grouped together by their favorite genre of music. So now we can see both the most favorite of favorite genres and see if a particular age group is influencing that.<br>
+From here, I started working with how exactly the treemap looked. At first, I started with the colors being influenced by ages. However, I thought that this seemed a little confusing, so I then changed the colors to be influenced by the genres, making it easier to see the overall groups. From there I changed the color palette itself because the initial automatic colors didn’t seem to fit incredibly well. From here, I tweaked the colors a little so that they felt a bit more coordinated with the music. For example, the Rock and Metal genres were originally Grey and then Brown, but they seem to fit a little better the other way around. Additionally, Pop was a duller color, so I changed that to be a more energetic color considering that Pop music normally has an association with more energetic movement.<br>
+From here I moved on to trying to incorporate my visual into a web based format using the D3 JavaScript library. I personally am not a fan of JS, and so I have done extra research to try and make the coding process as painless as possible. I successfully created test graphs using nonsense data in order to familiarize myself with actually doing the work with D3 as opposed to just having knowledge about how it works. As everything is completed and I move to the testing phase, I catch no errors in the code or in any interpretation of the code. However, the screen stays blank. After doing some digging and runtime inspection, I find that D3 does not support the type of data that I need to input in order to answer my question. While I can not use D3 to show my visualization, there are other ways that I can do so.<br>
+More research on JavaScript leads me back to Tableau. As it turns out, Tableau has certain properties built in that allows a user to embed it within a webpage if you have the necessary information. As such, this visualization can still be viewed as a web page.<br>
+
+<h1>Findings</h1>
+There are a few things that need to be kept in mind regarding the data. First, this data is all from a voluntary response type of collection. Second, the ages shown were filtered before being uploaded as data, so the bins are neater than they would be normally. <br>
+The first visible thing regarding this data is that age generally doesn't have an influence on favorite genres of music. In quite a few of the genres, we see ages as young as 15 and as old as 70 enjoying those genres. Not only this, but the distribution of ages across all the genres seem to be proportional to the dataset, wherein there are more young people than old people.<br>
+However, there are some interesting points to note here. Some that are younger in terms of when they came about do have more young aged people that list them as their favorite genre. For example, Video Game Music would only have come about after video games became popularized, which is much closer to 2022 than the general time period attributed to classical pieces of music. This genre reflects this as it has a lower range of ages that stated that genre as their favorite.<br>
+The second visible thing regarding this data is that Rock, a generally middle-aged genre of music compared to the relative ages of other musics, is the most popular. This doesn't appear to be especially significant as it is the only group of data that acts in this way, but it is interesting to note. <br>
+
+
+<h1>Video</h1>
+<video width="320" height="240">
+  <source src="" type="">
+</video>
+
+
+<h3><a href="https://elisample.github.io/index">D3 Visualization</a></h3>
+<h3><a href="https://elisample.github.io/index2">Tableau Visualization</a></h3>
+</body>
+</html>
